@@ -23,7 +23,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmodpb64_host
+LOCAL_MODULE := libmodpb64-host
 LOCAL_SRC_FILES := modp_b64.cc
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_CFLAGS := -Wall -Werror
