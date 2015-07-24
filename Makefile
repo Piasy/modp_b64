@@ -14,6 +14,7 @@
 
 include common.mk
 
+CXXFLAGS += -I$(SRC)/modp_b64/
 CXX_STATIC_LIBRARY(libmodpb64.pie.a): $(CXX_OBJECTS)
 
 all: CXX_STATIC_LIBRARY(libmodpb64.pie.a)
