@@ -8,4 +8,8 @@ source_set("modp_b64") {
     "modp_b64.h",
     "modp_b64_data.h",
   ]
+
+  include_dirs = [
+    "./modp_b64",
+  ]
 }
