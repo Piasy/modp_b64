@@ -15,6 +15,7 @@
 cc_library_static {
     name: "libmodpb64",
     host_supported: true,
+    vendor_available: true,
     srcs: ["modp_b64.cc"],
 
     cflags: [
